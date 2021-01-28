@@ -1,0 +1,203 @@
+/*GENERLES*/
+body{
+    background-image: url(../image/fondo_index.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646a1;
+    font-family: 'Roboto', sans-serif;
+}
+.line{
+    border-top: solid 2px rgb(255, 255, 255);
+}
+
+/*NAVBAR*/
+.navbar{
+    background: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 80px;
+    border-bottom: 2px solid rgb(63, 63, 63);
+    text-align: center;
+
+}
+.navbar img{
+    width: 100px;
+}
+.navbar .contact{
+    background-color:rgb(63, 63, 63);
+}
+.navbar .contact:hover{
+    background-color:  rgb(94, 94, 94);;
+}
+.navbar .contact a{
+    color: white;
+    
+}
+.navbar .contact a:hover{
+    color: white;
+}
+.navbar a{
+    font-size: 17px;
+    color: rgb(71, 71, 71);
+    font-family: 'Gotham-Book', sans-serif;
+}
+.navbar a:hover{
+    color: #5379C5;
+}
+
+
+/*PRINCIPAL*/
+#home{
+    width: 100%;
+    min-height: 850px;
+}
+#home h1{
+    width: 35%;
+    font-size: 80px;
+    text-shadow: 2px 2px 2px white;
+    float: right;
+    margin-top: 300px;
+}
+
+
+/*OBRAS*/
+#plays{
+    width: 100%;
+    min-height: 1050px;
+    background-color: #091263a1;
+}
+
+
+/*NOSOTROS*/
+#about{
+    width: 100%;
+    min-height: 750px;
+    background-color: #41e232a1;
+}
+
+
+/*CONTACTO*/
+#contact{
+    height: auto;
+    background-color: rgba(1,1,1,0.7);
+    font-size: 17px;
+    color: white;
+}
+#contact h3{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+#contact img{
+    width: 170px;
+    margin-top: 10px;
+}
+#contact h4{
+    font-size: 18px;
+    margin-top: 20px;
+}
+#contact ul{
+    list-style: none;
+}
+#contact ul li{
+    line-height: 35px;
+}
+#contact a{
+    text-decoration: none;
+    color: white;
+}
+#contact a:hover{
+    color: #629BF8;
+}
+
+
+
+/*FOOTER*/
+#footer .credit{
+    width: 100%;
+    min-height: 50px;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgba(1, 1, 1, 0.925);
+    margin: auto;
+    font-size: 13px;
+    clear: both;
+    padding: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*MOVILES*/
+/*****************************/
+
+@media (max-width: 575.98px) {  
+    /*NAVBAR*/
+    .navbar img{
+        width: 70px;
+    }
+    .navbar a{
+        font-size: 14px;
+    }
+    .navbar .contact{
+        width: 30%;
+        margin: auto;
+    }
+
+    /*HOME*/
+    #home{
+        min-height: 700px;
+        
+    }
+    #home h1{
+        width: 100%;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+ 
+    
+    /*CONTACTO*/
+    #contact{
+        width: 100%;
+        min-height: 520px;
+    }
+    #contact .container{
+        font-size: 12px;
+        text-align: center;
+    }
+    #contact h3{
+        font-size: 15px;
+    }
+    #contact img{
+        width: 120px;
+    }
+    #contact h4{
+        font-size: 17px;
+        color: rgba(199, 199, 199, 0.836);
+    }
+    #contact ul li{
+        line-height: 20px;
+    }
+    #contact img{
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    /*FOOTER*/
+    #footer{
+        text-align: center;
+    }
+    #footer p{
+        font-size: 11px;
+    }
+}
